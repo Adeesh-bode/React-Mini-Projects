@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+.btn{
+@apply border-b-4 border-lime-400 hover:text-lime-500 p-2 md:border-l-4 md:border-b-0 rounded-md;
+
+}
+
+
+/*  // earlier css practice
+@media (max-width: 768px)
+{
+    .flex{
+        flex-direction: column;
+    }
+} */
