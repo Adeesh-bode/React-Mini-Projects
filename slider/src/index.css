@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --blueshade:rgb(38, 108, 246);
+}
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  /* outline:1px solid red; */
+}
+.btns{
+  @apply bg-slate-500 text-white text-2xl font-bold  p-1 rounded-md ; 
+}
